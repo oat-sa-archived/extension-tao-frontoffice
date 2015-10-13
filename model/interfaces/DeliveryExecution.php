@@ -35,7 +35,7 @@ interface DeliveryExecution {
 
     const STATE_FINISHIED = 'http://www.tao.lu/Ontologies/TAODelivery.rdf#DeliveryExecutionStatusFinished';
     
-    const STATE_PAUSED = 'paused';
+    const STATE_PAUSED = 'http://www.tao.lu/Ontologies/TAODelivery.rdf#DeliveryExecutionStatusPaused';
     
     /**
      * Returns the identifier of the delivery execution
